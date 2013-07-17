@@ -16,7 +16,11 @@ public class pawntest extends TestCase {
 		
 //		이하 2장 과제
 		
-		Pawn pawn3 = new Pawn();
+		//Pawn pawn3 = new Pawn();
 		//인수가 필요한 생성자인데 인수를 사용하지 않았으므로 컴파일 에러가 생긴다.
+		//흰 색의 말을 생성하는 두 번째 생성자 추가
+		Pawn pawn3 = new Pawn(white);
+		String color3 = pawn3.whatColor();
+		assertEquals(white, color3);
 	}
 }
