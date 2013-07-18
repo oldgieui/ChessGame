@@ -9,6 +9,5 @@ public class BoardTest extends TestCase {
 		assertEquals(0, Board.numberOfPawn());
 		Board.addPawn(pawn1);
 		Board.addPawn(pawn2);
-		
 	}
 }

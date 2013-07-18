@@ -1,7 +1,7 @@
 import junit.framework.TestCase;
 
 
-public class pawntest extends TestCase {
+public class PawnTest extends TestCase {
 	public void testcreate() throws Exception {
 
 		Pawn pawn1 = new Pawn(Pawn.white);
