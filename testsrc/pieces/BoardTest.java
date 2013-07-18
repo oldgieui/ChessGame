@@ -1,3 +1,7 @@
+package pieces;
+
+import pieces.Board;
+import pieces.Pawn;
 import junit.framework.TestCase;
 
 

@@ -1,5 +1,6 @@
-import junit.framework.TestCase;
+package pieces;
 
+import junit.framework.TestCase;
 
 public class PawnTest extends TestCase {
 	public void testcreate() throws Exception {
@@ -23,3 +24,4 @@ public class PawnTest extends TestCase {
 		assertEquals(Pawn.white, color3);
 	}
 }
+
