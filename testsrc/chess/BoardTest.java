@@ -1,6 +1,6 @@
-package pieces;
+package chess;
 
-import pieces.Board;
+import chess.Board;
 import pieces.Pawn;
 import junit.framework.TestCase;
 

@@ -1,5 +1,7 @@
-package pieces;
+package chess;
 import java.util.ArrayList;
+
+import pieces.Pawn;
 
 /**
  * 체스판을 관리하는 클래스임다.
