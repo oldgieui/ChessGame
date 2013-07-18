@@ -13,7 +13,5 @@ public class BoardTest extends TestCase {
 		assertEquals(0, Board.numberOfPawn());
 		Board.addPawn(pawn1);
 		Board.addPawn(pawn2);
-		
-		Board.addPawn(new Interger("7"));
 	}
 }
