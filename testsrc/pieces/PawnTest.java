@@ -8,11 +8,13 @@ public class PawnTest extends TestCase {
 		Pawn pawn1 = new Pawn(Pawn.white);
 		String color = pawn1.whatColor();
 		assertEquals(Pawn.white, color);
-		
 
 		Pawn pawn2 = new Pawn(Pawn.black);
 		String color2 = pawn2.whatColor();
 		assertEquals(Pawn.black, color2);
+	}
+	public void testname() throws Exception {
+		
 	}
 }
 
